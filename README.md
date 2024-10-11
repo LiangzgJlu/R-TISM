@@ -50,7 +50,7 @@ python test.py --model_path ./check_point/r-tsim_25_0_1.pt --log_path ./log --tr
 
 ![](./fig/compare_ttc_15.png)
 
-​	Comparison figure of kernel density estimation for TTC distribution under 15-second. The black section represents the TTC histogram of the output from the car-following model, while the red section represents the TTC histogram of the real dataset distribution. The figure intuitively shows that the TTC distribution output by R-TSIM is similar to the real distribution, with a KL$_{ttc} $ value of 0.00595.
+​	Comparison figure of kernel density estimation for TTC distribution under 15-second. The black section represents the TTC histogram of the output from the car-following model, while the red section represents the TTC histogram of the real dataset distribution. The figure intuitively shows that the TTC distribution output by R-TSIM is similar to the real distribution, with a KL$`_{ttc} `$ value of 0.00595.
 
 ![](./fig/533_compare.png)
 
