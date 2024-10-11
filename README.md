@@ -9,7 +9,7 @@ See the R-TSIM for full documentation on training, testing. See below for quick 
 Clone repo and install requirements.txt in a **Python >= 3.9.0** environment, including **PyTorch >= 2.4.1**.
 
 ```shell
-git clone 
+git clone https://github.com/LiangzgJlu/R-TISM.git
 cd r-tsim
 pip install -r requirements.txt
 ```
