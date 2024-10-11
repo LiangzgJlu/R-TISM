@@ -23,7 +23,7 @@ Download car-following data extracted from the HighD dataset from a [Google Driv
 The commands below reproduce **R-TSIM**. 
 
 ```python
-python train.py --log_path ./log/ --history_windows_length 25 --batch_size 512 --epoche 400 --track_path_15 data/HighD_train_data.npy --track_path_30 data/30_HighD_train_data.npy --noise 0.1 --train
+python train.py --log_path ./log/ --checkpoint_save_path check_points/my_r-tsim_25_0_1.pt  --history_windows_length 25 --batch_size 512 --epoche 400 --track_path_15 data/HighD_train_data.npy --track_path_30 data/30_HighD_train_data.npy --noise 0.1  --train
 ```
 
 ## 4 Testing
