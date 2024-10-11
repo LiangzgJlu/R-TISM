@@ -10,7 +10,7 @@ Clone repo and install requirements.txt in a **Python >= 3.9.0** environment, in
 
 ```shell
 git clone https://github.com/LiangzgJlu/R-TISM.git
-cd r-tsim
+cd R-TISM
 pip install -r requirements.txt
 ```
 
