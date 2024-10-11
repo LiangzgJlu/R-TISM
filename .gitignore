@@ -1,0 +1,7 @@
+check_points/*
+data/*
+log/*
+*.pkl
+*.pt
+save*
+*__pycache__*

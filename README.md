@@ -31,7 +31,7 @@ python train.py --log_path ./log/ --checkpoint_save_path check_points/my_r-tsim_
 The following commands are used to test the performance of **R-TSIM**. The network structure weights file r-tsim_25_0_1.pt for R-TSIM can be downloaded from [Google Drive](https://drive.google.com/file/d/1E1iMxtIxi3Ul2JYZXZ08Rs1UntW3wwqx/view?usp=drive_link) and you should moved it into the check_point directory. 
 
 ```python
-python test.py --model_path ./check_point/r-tsim_25_0_1.pt --log_path ./log --track_path data/HighD_train_data.npy -hwl 25 --mse
+python test.py --model_path ./check_points/r-tsim_25_0_1.pt --log_path ./log --track_path data/HighD_train_data.npy -hwl 25 --mse
 ```
 
 # Result Show
